@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 49%, rgba(0, 212, 255, 1) 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+}
+
+.container {
+  background-color: white;
+}
+
+.lista-turnos .turno {
+  padding: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0.8rem;
+  background-color: #D7DDDC;
+  box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+}
+
+.lista-turnos .turno:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-turnos .turno p {
+  margin: 0;
+}
+
+.lista-turnos .turno button {
+  margin-top: 1rem !important;
+}
+
+.lista-turnos .turno span {
+  font-weight: bold;
+}
+
+textarea {
+  height: 200px !important;
+}
+
+svg {
+  width: 21px;
+}
+
+@media (max-width: 767px) {
+  #administra {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .titulo {
+    font-size: 1.8rem;
+  }
+}

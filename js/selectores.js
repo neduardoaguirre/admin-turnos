@@ -1,0 +1,10 @@
+export const propietarioInput = document.querySelector('#propietario');
+export const mascotaInput = document.querySelector('#mascota');
+export const especieInput = document.querySelector('#especie');
+export const telefonoInput = document.querySelector('#telefono');
+export const fechaInput = document.querySelector('#fecha');
+export const horaInput = document.querySelector('#hora');
+export const sintomasInput = document.querySelector('#sintomas');
+export const contenedorTurnos = document.querySelector('#turnos');
+export const formulario = document.querySelector('#nuevo-turno')
+export const heading = document.querySelector('#administra');
